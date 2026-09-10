@@ -2,81 +2,93 @@
 ## Java
 ##############################
 .mtj.tmp/
-*.clase
-*.frasco
-*.guerra
-*.oreja
+*.class
+*.jar
+*.war
+*.ear
 *.nar
 hs_err_pid*
 replay_pid*
+
 ##############################
 ## Maven
 ##############################
-objetivo/
+target/
 pom.xml.tag
 pom.xml.releaseBackup
-Copia de seguridad de pom.xml.versions
+pom.xml.versionsBackup
 pom.xml.next
 pom.xml.bak
-propiedades de lanzamiento
+release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+
 ##############################
 ## Gradle
 ##############################
-papelera/
-construir/
+bin/
+build/
 .gradle
 .gradletasknamecache
 gradle-app.setting
 !gradle-wrapper.jar
+
 ##############################
 ## IntelliJ
 ##############################
-afuera/
+out/
 .idea/
 .idea_modules/
 *.iml
 *.ipr
 *.iws
+
 ##############################
 ## Eclipse
 ##############################
-.ajustes/
-papelera/
+.settings/
+bin/
 tmp/
-.metadatos
-.ruta de clases
-.proyecto
+.metadata
+.classpath
+.project
 *.tmp
 *.bak
 *.swp
 *~.nib
-propiedades locales
+local.properties
 .loadpath
-.ruta de fábrica
+.factorypath
+
 ##############################
 ## NetBeans
 ##############################
 nbproject/private/
-construir/
+build/
 nbbuild/
-distribución/
+dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+
 ##############################
-## Código de Visual Studio
+## Visual Studio Code
 ##############################
 .vscode/
 .code-workspace
+
 ##############################
 ## OS X
 ##############################
 .DS_Store
+
 ##############################
-## Misceláneas
+## Miscellaneous
 ##############################
-*.registro
+*.log
+
+# Docker y variables de entorno
+.env
+pgdata/
